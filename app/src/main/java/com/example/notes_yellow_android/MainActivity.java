@@ -46,10 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         mDatabase = new DatabaseHelper(this);
 
-        //predefined categories
-//        categoryList.add("Books");
-//        categoryList.add("Groceries");
-//        categoryList.add("Inventory");
+
 
 
         sharedPreferences = this.getSharedPreferences("com.example.notesproject", Context.MODE_PRIVATE);
