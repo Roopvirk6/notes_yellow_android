@@ -89,13 +89,7 @@ public class EachNoteSampleActivity extends AppCompatActivity {
 
                 case R.id.maps:
                     actionBar.setTitle("Map");
-                    if(notes != null){
                         loadFragment(new NoteMapFragment(notes));
-                    }
-
-                    else {
-
-                    }
                     return true;
             }
             return false;
