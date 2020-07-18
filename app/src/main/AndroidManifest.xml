@@ -26,7 +26,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/api_key" />
+            android:value="AIzaSyAwwNoWv5RB_2_Y5Dr-uSOe5xxFJvf5G0c" />
 
         <activity android:name=".MainActivity"
             android:label="Notes"
