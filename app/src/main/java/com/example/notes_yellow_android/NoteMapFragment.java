@@ -110,7 +110,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
 
 
         MarkerOptions options = new MarkerOptions()
-                .position(userlocation).title("Your location");
+                .position(userlocation);
 
 
         homeMarker = mMap.addMarker(options);
