@@ -42,6 +42,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
     private LocationCallback locationCallback;
     private NoteClass notes;
     GoogleApiClient mGoogleApiClient;
+    Marker mCurrentMarker;
 
     private Double lat , lng;
 
@@ -149,6 +150,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
 
             fusedLocationProviderClient.requestLocationUpdates(locationRequest, locationCallback, Looper.myLooper());
+
 
 
         } else {
