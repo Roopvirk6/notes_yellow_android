@@ -52,7 +52,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
         this.notes = notes;
     }
 
-   final int RADIUS = 1500;
+   //final int RADIUS = 1500;
 
    // LatLng customMarker;
     LatLng currentLocation;
