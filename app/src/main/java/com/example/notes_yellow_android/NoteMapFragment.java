@@ -41,6 +41,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
     private LocationCallback locationCallback;
     private NoteClass notes;
 
+
     private Double lat , lng;
 
 
@@ -50,6 +51,11 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
     {
         this.notes = notes;
     }
+
+   // final int RADIUS = 1500;
+
+   // LatLng customMarker;
+    LatLng currentLocation;
 
 
 
@@ -99,8 +105,12 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
         Marker homeMarker;
         LatLng userlocation = new LatLng(location.getLatitude() , location.getLongitude());
 
+        currentLocation = userlocation;
+
+
+
         MarkerOptions options = new MarkerOptions()
-                .position(userlocation);
+                .position(userlocation).title("Your location");
 
 
         homeMarker = mMap.addMarker(options);
