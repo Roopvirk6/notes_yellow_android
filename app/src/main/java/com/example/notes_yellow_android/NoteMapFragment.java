@@ -41,7 +41,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
     private LocationRequest locationRequest;
     private LocationCallback locationCallback;
     private NoteClass notes;
-
+    GoogleApiClient mGoogleApiClient;
 
     private Double lat , lng;
 
