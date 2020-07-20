@@ -28,7 +28,7 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.io.IOException;
-
+import android.graphics.Bitmap;
 public class NoteImageFragment extends Fragment {
 
     private static final int IMAGE_REQUEST_CODE = 0;
