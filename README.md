@@ -10,7 +10,7 @@ VARIOUS FOLDERS:
 2)	Layout: There are three layout files for each activities using Fragments and linear layout constraints.
 •	content menu
 •	content note
-•       maps fragment, audio, image and title fragments.
+• maps fragment, audio, image and title fragments.
 3)	References: 
 •	https://stackoverflow.com/questions/49249234/what-is-parcelable-in-android
 •	https://material.io/develop/android/
