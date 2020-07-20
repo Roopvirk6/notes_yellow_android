@@ -105,7 +105,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
         Marker homeMarker;
         LatLng userlocation = new LatLng(location.getLatitude() , location.getLongitude());
 
-        currentLocation = userlocation;
+        //currentLocation = userlocation;
 
 
 
