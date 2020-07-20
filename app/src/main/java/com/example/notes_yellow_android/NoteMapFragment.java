@@ -144,7 +144,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
     public void onMapReady(GoogleMap googleMap) {
 
         mMap = googleMap;
-        mMap.getUiSettings().setZoomControlsEnabled(true);
+       // mMap.getUiSettings().setZoomControlsEnabled(true);
 
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
 
