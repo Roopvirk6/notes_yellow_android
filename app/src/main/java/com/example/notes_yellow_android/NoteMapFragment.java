@@ -54,7 +54,7 @@ public class NoteMapFragment extends Fragment implements OnMapReadyCallback{
 
    //final int RADIUS = 1500;
 
-   LatLng customMarker;
+   //LatLng customMarker;
     LatLng currentLocation;
 
 
